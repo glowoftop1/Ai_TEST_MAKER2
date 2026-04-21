@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Upload, FileText, Loader2, CheckCircle2, AlertCircle, BookOpen, X, Download, Settings2, ChevronDown, ChevronUp, PlayCircle } from 'lucide-react';
-import { generateQuestions } from './services/gemini';
+import { generateQuestions } from './gemini';
 import { QuizData, FileData, QuizOptions, QuestionType } from './types';
 
 declare global {
